@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -75,6 +79,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tictac.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TicStartMenu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TicStartMenu2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameStart.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetris.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toby fox - UNDERTALE Soundtrack - 59 Spider Dance.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toby_fox_-_UNDERTALE_Soundtrack_-_54_Hotel.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wii_-_Shop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zelda-_Twilight_Princess_Music_-_Midnas_Lament.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

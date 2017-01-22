@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Darude" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Darude_-_Sandstorm_Radio_Edit_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="GameStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameStart.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -127,8 +130,20 @@
   <data name="Midna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Zelda-_Twilight_Princess_Music_-_Midnas_Lament.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Ocean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Legend_of_Zelda_-_The_Wind_Waker_-_31_-_Ocean.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RadioB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\107_Radio_Tune_B.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wii_-_Shop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ShopZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10_Shop.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sonic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sonic_the_Hedgehog-Green_Hill_Zone_Theme.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="SpiderDance" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toby fox - UNDERTALE Soundtrack - 59 Spider Dance.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

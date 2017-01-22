@@ -116,7 +116,7 @@ namespace assignment00
             }
             if (e.KeyCode == Keys.H)
             {
-                string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Primes game reset. Click to activate game reset. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /H: Display this help menu.";
+                string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Start game and reset game. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /H: Display this help menu.";
                 GameStart = GameStart.Replace("/", System.Environment.NewLine);
                 MessageBox.Show(GameStart);
             }
@@ -266,7 +266,7 @@ namespace assignment00
         private void JukeBox()
         {
 
-            if (songNumber == 5)
+            if (songNumber == 10)
             {
                 songNumber = 0;
             }
@@ -311,35 +311,35 @@ namespace assignment00
                     }
                 case 5:
                     {
-                        player = new SoundPlayer(assignment00.Properties.Resources.Tetris);
+                        player = new SoundPlayer(assignment00.Properties.Resources.ShopZ);
                         PlayMusic();
                         songNumber++;
                         break;
                     }
                 case 6:
                     {
-                        player = new SoundPlayer(assignment00.Properties.Resources.Tetris);
+                        player = new SoundPlayer(assignment00.Properties.Resources.Darude);
                         PlayMusic();
                         songNumber++;
                         break;
                     }
                 case 7:
                     {
-                        player = new SoundPlayer(assignment00.Properties.Resources.Tetris);
+                        player = new SoundPlayer(assignment00.Properties.Resources.Sonic);
                         PlayMusic();
                         songNumber++;
                         break;
                     }
                 case 8:
                     {
-                        player = new SoundPlayer(assignment00.Properties.Resources.Tetris);
+                        player = new SoundPlayer(assignment00.Properties.Resources.RadioB);
                         PlayMusic();
                         songNumber++;
                         break;
                     }
                 case 9:
                     {
-                        player = new SoundPlayer(assignment00.Properties.Resources.Tetris);
+                        player = new SoundPlayer(assignment00.Properties.Resources.Ocean);
                         PlayMusic();
                         songNumber++;
                         break;
@@ -360,23 +360,18 @@ namespace assignment00
             }
         }
 
-        private void ShowCredits()
-        {
-
-        }
-
         private void IfWin()
         {
             if (CheckWin() == 1)
             {
-                string winner = String.Format("Player " + LastPlayer + " has won. /Please press Space for a new game./Click after pressing Space to reset.");
+                string winner = String.Format("Player " + LastPlayer + " has won. /Please press Space for a new game.");
                 winner = winner.Replace("/", System.Environment.NewLine);
                 MessageBox.Show(winner);
 
             }
             else if (CheckWin() == -1)
             {
-                string winner = "Nobody Wins! :(/Please press Space for a new game./Click after pressing Space to reset.";
+                string winner = "Nobody Wins! :(/Please press Space for a new game.";
                 winner = winner.Replace("/", System.Environment.NewLine);
                 MessageBox.Show(winner);
             }

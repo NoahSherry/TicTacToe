@@ -107,6 +107,21 @@
   <ItemGroup>
     <None Include="Resources\Zelda-_Twilight_Princess_Music_-_Midnas_Lament.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10_Shop.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\107_Radio_Tune_B.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Darude_-_Sandstorm_Radio_Edit_.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sonic_the_Hedgehog-Green_Hill_Zone_Theme.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The_Legend_of_Zelda_-_The_Wind_Waker_-_31_-_Ocean.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

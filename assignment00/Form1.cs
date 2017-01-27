@@ -33,7 +33,7 @@ namespace assignment00
             DoubleBuffered = true;
 
             #region Game Start Message
-            string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Primes game reset. Click to activate game reset. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /H: Display this help menu.";
+            string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Primes game reset. Click to activate game reset. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /J: Change Music Selection. /H: Display this help menu.";
             GameStart = GameStart.Replace("/", System.Environment.NewLine);
             SoundPlayer GameOpen = new SoundPlayer(assignment00.Properties.Resources.GameStart);
             GameOpen.Play();
@@ -116,7 +116,7 @@ namespace assignment00
             }
             if (e.KeyCode == Keys.H)
             {
-                string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Start game and reset game. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /H: Display this help menu.";
+                string GameStart = "Welcome to Tic-Tac-Toe! /Here's a short list of commands for running the game! / /Spacebar: Start game and reset game. /Q: Exit the game and close the window. /T: Change starting player. Defaults to X. /M: Enable or Disable the game music. Enabled by default. /J: Change Music Selection. /H: Display this help menu.";
                 GameStart = GameStart.Replace("/", System.Environment.NewLine);
                 MessageBox.Show(GameStart);
             }
@@ -265,7 +265,6 @@ namespace assignment00
 
         private void JukeBox()
         {
-
             if (songNumber == 10)
             {
                 songNumber = 0;
